@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                bat 'C:\\Users\\csdal\\AppData\\Local\\Programs\\Python\\Python312\\python -m pytest ping_test.py'
+                bat 'C:\\Users\\csdal\\AppData\\Local\\Programs\\Python\\Python312\\python -m pytest ping_test.py --alluredir allure-results'
             }
             post {
                 always {
