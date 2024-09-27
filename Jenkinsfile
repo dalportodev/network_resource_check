@@ -8,7 +8,7 @@ pipeline {
             }
             post {
                 always {
-                    allure_default includeProperties:
+                    allure includeProperties:
                      false,
                      jdk: '',
                      results: [[path: 'build/allure-results']]
