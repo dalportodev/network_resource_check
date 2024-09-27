@@ -19,7 +19,7 @@ def ping (host,ping_count):
             return False
 
 #nodes = ["192.168.50.130"]
-nodes = [$HOST]
+nodes = [{$HOST}]
 
 #ping(nodes,3)
 
