@@ -1,5 +1,6 @@
 from re import findall
 from subprocess import Popen, PIPE
+import OS
 
 def ping (host,ping_count):
 
@@ -19,7 +20,7 @@ def ping (host,ping_count):
             return False
 
 #nodes = ["192.168.50.130"]
-nodes = [{$HOST}]
+nodes = [os.environ["HOST"]]
 
 #ping(nodes,3)
 
