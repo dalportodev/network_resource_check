@@ -18,7 +18,8 @@ def ping (host,ping_count):
             print(f"{ip} : Failed Ping")
             return False
 
-nodes = ["192.168.50.130"]
+#nodes = ["192.168.50.130"]
+nodes = [$HOST]
 
 #ping(nodes,3)
 
