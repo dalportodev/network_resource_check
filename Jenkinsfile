@@ -11,7 +11,7 @@ pipeline {
                     allure includeProperties:
                      false,
                      jdk: '',
-                     results: [[path: '$WORKSPACE/build/allure-results']]
+                     results: [[path: '$WORKSPACE/target/allure-results']]
                 }
             }
         }
