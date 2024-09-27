@@ -1,6 +1,6 @@
 from re import findall
 from subprocess import Popen, PIPE
-import OS
+import os
 
 def ping (host,ping_count):
 
